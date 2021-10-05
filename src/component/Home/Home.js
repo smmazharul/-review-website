@@ -34,7 +34,7 @@ const Home = () => {
             <h2 style={{marginTop:'20px'}}>Our Service</h2>
             <div className='home-card' >
             {
-                cards.map(card=>
+                cards.slice(0,3).map(card=>
                 <Homes card={card} key={card.name}></Homes>)
             }
             </div>
