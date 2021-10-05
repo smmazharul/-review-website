@@ -1,8 +1,13 @@
 import React from 'react';
 import { ButtonGroup,Button, Card } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 import '../Homes/Homes.css'
 const Homes = (props) => {
     const {name,year,description,duration,img}=props.card;
+    const history = useHistory()
+    const handleCard=()=>{
+         history.push('/service')
+    }
     return (
         <div className="header">
             <Card className='card'>
@@ -14,7 +19,7 @@ const Homes = (props) => {
       <Card.Text>{description}</Card.Text>
     </Card.Body>
     <Card.Footer>
-      <Button  className="home-card-button">See more</Button>
+      <Button onClick={handleCard} className="home-card-button">See more</Button>
     </Card.Footer>
   </Card>
         </div>
