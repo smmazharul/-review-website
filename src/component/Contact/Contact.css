@@ -1,10 +1,11 @@
 .Contact{
-    background: rgb(9, 3, 39);
-    padding: 20px 0px 10px 10px;
-    margin-top: 20px;
+    background: rgba(8, 87, 161, 0.884);
+    padding: 0 10px;
+    margin-top: 15px;
 }
 Form{
-    color: white;
+    color: rgb(4, 0, 15);
+    font-weight: 700;
 }
 Button{
     background: orange;
