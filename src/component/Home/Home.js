@@ -14,6 +14,7 @@ const Home = () => {
     return (
         <div className="Home">
           <div className='home-banner'>
+              {/* about part */}
           <Container className='about-section'>
            <Row>
              <Col>
