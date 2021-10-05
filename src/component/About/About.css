@@ -1,0 +1,19 @@
+.about{
+    background: rgb(6, 6, 41);
+    padding: 8px;
+    margin-top: 20px;
+}
+.about-section{ 
+    margin-top: 20px;
+}
+.about-section img{
+    border-radius: 10px;
+}
+.about-content{
+    text-align: start;
+    margin-top: 70px;
+    color: white;
+}
+.about-content h4{
+    color: orange;
+}

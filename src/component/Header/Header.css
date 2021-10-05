@@ -1,0 +1,17 @@
+.Navbar{
+ background: rgb(14, 2, 49);
+}
+.Navbar a{
+    margin-left: 50px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    
+} 
+.Navbar a:hover{
+color: orange;
+    
+} 
+.nav-bar .nav-link:hover{
+    color: orange;
+} 
