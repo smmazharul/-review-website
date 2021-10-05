@@ -5,6 +5,12 @@
     background: rgb(6, 6, 46);
     color: white;
 }
+.card:hover{
+background: rgb(6, 6, 46);
+transform: scale(.8);
+
+}
+
 .card-body{
     text-align: start;
 }

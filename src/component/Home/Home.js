@@ -31,10 +31,10 @@ const Home = () => {
 
            </Container>
           </div>
-            <h2 style={{marginTop:'20px'}}>Our Service</h2>
+            <h2 style={{marginTop:'20px', color:'orange'}}>Our Service</h2>
             <div className='home-card' >
             {
-                cards.slice(0,3).map(card=>
+                cards.slice(0,4).map(card=>
                 <Homes card={card} key={card.name}></Homes>)
             }
             </div>
