@@ -4,6 +4,7 @@
     height: 550px;
     background: rgb(6, 6, 46);
     color: white;
+    transition: .2s;
 }
 .card:hover{
 background: rgb(6, 6, 46);
