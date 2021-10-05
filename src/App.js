@@ -8,6 +8,7 @@ import About from './component/About/About';
 import Footer from './component/Footer/Footer';
 import Services from './component/Services/Services';
 import Contact from './component/Contact/Contact';
+import NotFound from './component/NotFound/NotFound';
 
 
 function App() {
@@ -33,7 +34,9 @@ function App() {
             <Route exact path='/contact'>
             <Contact></Contact>
             </Route>
-            
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
         </Switch>
         <Footer></Footer>
       </BrowserRouter>

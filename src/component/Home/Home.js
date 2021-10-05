@@ -35,7 +35,7 @@ const Home = () => {
             <div className='home-card' >
             {
                 cards.map(card=>
-                <Homes card={card}></Homes>)
+                <Homes card={card} key={card.name}></Homes>)
             }
             </div>
         </div>

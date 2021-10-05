@@ -15,7 +15,7 @@ const Services = () => {
             <p style={{color:'rgb(6, 6, 46)', fontSize:'24px'}}>Our Services is the best Service for kids </p>
             <div className='home-card'>
             {
-                Services.map(service=><Servie servie={service}></Servie>)
+                Services.map(service=><Servie servie={service} key={service.name}></Servie>)
             }
             </div>
         </div>
